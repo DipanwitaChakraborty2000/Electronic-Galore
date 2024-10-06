@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    padding: 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*header section start*/
+
+
+
+.logo img{
+    width: 100px;
+    height: auto;
+    border-radius: 30%;
+    padding-left: 5px;
+    margin-top: 3px;
+    position: relative;
+}
+
+
+.search{
+   /* background-color: brown;*/
+    padding-left: 142px;
+    margin-top: -69px;
+}
+
+.search input{
+    width: 313px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    opacity: 0.2px
+}
+
+.search button{
+    width: 66px;
+    height: 49.8px;
+    border-radius: 10px;
+   /* margin-top: 10px;*/
+    position: fixed;
+}
+.search button i{
+    font-size: 23px;
+    position: relative;
+}
+
+
+.login{
+    float: right;
+    margin-top: 0px;
+}
+
+
+.nav-login{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    margin-top: -47px;
+}
+
+
+.nav-login a{
+    font-size: 35px;
+    color: black;
+}
+/* header section end */
+
+/* nav section start */
+.navbar {
+    border: black solid 2.5px;
+    background-color: rgb(115, 154, 196);
+    margin-left: 10px;
+    width: 870px;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 15px;
+    font-style: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lusida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgba(86, 49, 149, 0.943);
+}
+
+.navbar a:hover{
+    background-color: rgb(125, 228, 228);
+}
+/*nav sectiion end */
+
+/* body section 1st start */
+.home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #a9a9a92b;
+    z-index: 0;
+}
+
+.home .log{
+    flex: 1 1 300px;
+}
+.home .img img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.home .content{
+    flex: 1 1 400px;
+    margin-top: 20px;
+}
+
+.content h1{
+    color: rgb(67 0 86);
+    font-weight: bold;
+    margin-left: 23px;
+    font-size: 55px;
+    text-shadow: -1px 1px 1px black;
+}
+.content h1 span{
+    color: rgb(67 0 86);
+    text-shadow: 1px 1px 1px black;
+}
+#span{
+    color: #ffc800;
+}
+.content p{
+    margin-left: 28px;
+}
+
+.btn{
+    margin-left: 21px;
+}
+.btn button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: rgba(81, 6, 36, 0.982);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #ffc800;
+    border: none;
+}
+@media screen and (max-width:1200px){
+    .home{
+        height: 90vh;
+    }
+}
+@media screen and (max-width:700px){
+    .home{
+        height: 140vh;
+    }
+}
+@media screen and (max-width: 550px){
+    .home{
+        height: 100vh;
+    }
+}
+@media screen and (max-width:420px){
+    .content h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:320px){
+    .content h1{
+        font-size: 36px;
+    }
+}
+/* body section 1st end */
+
+
+/*Product section start */
+
+#product-cards{
+    margin-top: 100px;
+}
+#product-cards h1{
+    color: #4974e1;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #131002;
+    width: 50%;
+}
+#product-cards .card h3{
+    font-size: 25px;
+    color: black;
+}
+#product-cards .card p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: black
+}
+.star i{
+    margin-left: 5px;
+    font-size: 13px;
+}
+.checked{
+    color: #ffc800;
+}
+#product-cards.card h2{
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+#product-cards.card h2 span{
+    float: right;
+    color: black;
+    cursor: pointer;
+    margin-left: 5px;
+}
+@media screen and (max-width:1000px){
+    #product-cards .card h3{
+        font-size: 18px;
+    }
+    #product-cards .card img{
+        width: 20px;
+    }
+}
+
+/* Product section end */
+
+
+
+
+
+
+/*Mobile phones start */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("Google\ Pixel\ 8.webp") no-repeat center;
+    background-size: cover;
+	transition: all 0.3s;
+    background-size: 50%; 
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("Samsung\ Galaxy\ S23\ FE\ Purple\ color.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("Motorola\ Edge\ 50\ Fusion.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("Samsung\ Galaxy\ S23\ FE\ mint\ color.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+.section-products #product-5 .part-1::before {
+    background: url("Motorola\ G85\ 5G.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+.section-products #product-6 .part-1::before {
+    background: url("Realme\ P1\ 5G.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+.section-products #product-7 .part-1::before {
+    background: url("CMF\ by\ nothing\ phone\ 1\ orange.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+.section-products #product-8 .part-1::before {
+    background: url("Samsung\ A14\ 5g.webp") no-repeat center;
+    background-size: cover;
+    background-size: 50%; 
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* Mobile phones end */
+
+
+/*accessories start*/
+
+.Container h2{
+    color: #4974e1;
+    width: 50%;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #131002;
+
+}
+
+
+  
+
+/*accessories end*/
+
+
+
+
+/*about section start*/
+
+.about{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.about-img img{
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+}
+
+.about-para {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.about-para h2{
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+.about-para h4{
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+.about-para p{
+    width: 400px;
+    height: auto;
+    margin-left: 90px;
+    justify-content: center;
+    text-align: center;
+    shape-outside: square(100%);
+    
+}
+
+
+/*about section end*/
+
+
+
+
+
+/*feature section start*/
+
+.featured-content i {
+	font-size: 37px;
+	padding: 7px 0 0 10px;
+	color: #eb372a;
+}
+.featured-content h4 {
+	color: #666;
+	font-size: 14px;
+	margin: 0 0 5px;
+	text-transform: uppercase;
+	font-weight:500;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.featured-content p {
+	font-size: 13px;
+	color:#333333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.margin-top-8 {
+	margin-top:8px;
+}
+.featured-border {
+	border: 1px solid #ebebeb;
+	width:100%;
+	float:left;
+	padding:15px 0px;
+}
+
+
+/*feature section end*/
+
+
+
+
+
+
+
+
+
+/*footer section starts*/
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container-footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+.footer-content h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+.footer-content p{
+    width: 200px;
+    margin: auto;
+    margin-left: 75px;
+    padding: 7px;
+    color: white;
+    font-size: 17px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i{
+    color: white;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+
+.footer-bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.footer-bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 18px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+/*footer section end*/
